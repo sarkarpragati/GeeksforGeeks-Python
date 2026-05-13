@@ -7,6 +7,8 @@ class Node:
 
 class Solution:
     def printList(self, head):
+        if not head:
+            return
         curr = head
         while curr:
             
